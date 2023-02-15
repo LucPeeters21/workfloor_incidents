@@ -1,0 +1,21 @@
+library(haven)
+library(dplyr)
+library(car)
+library(emmeans)
+library(effectsize)
+library(dataPreparation)
+library(readxl)
+library(stringr)
+library(tidyr)
+library(data.table)
+library(tidyverse)
+library(scales) 
+library(stringr) 
+library(Hmisc) 
+library(forcats) 
+library(ggthemes)
+
+# import data
+setwd("C:/Users/LPEE/OneDrive - Hoppenbrouwers Techniek B.V/Documenten/Oefendata/samplesafety")
+df <- read_excel("safetydata.xlsx")
+
