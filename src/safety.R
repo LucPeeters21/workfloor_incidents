@@ -19,3 +19,10 @@ library(ggthemes)
 setwd("C:/Users/LPEE/OneDrive - Hoppenbrouwers Techniek B.V/Documenten/Oefendata/samplesafety")
 df <- read_excel("safetydata.xlsx")
 
+# pie charts descriptive
+location_table <-  table(df$`Injury Location`)
+pie(location_table,labels=c("Abdomen","Arms", "Back", "Eye", "Feet", "Hands", "Head", "Legs", "Multiple", "Neck", "Trunk"))
+
+gender_table <- table(df$Gender)
+pie(gender_table, labels=c("Female", "Male"), main="Incident Ratio Between Gender")
+
