@@ -16,7 +16,7 @@ library(forcats)
 library(ggthemes)
 
 # import data
-setwd("C:/Users/LPEE/OneDrive - Hoppenbrouwers Techniek B.V/Documenten/Oefendata/samplesafety")
+setwd("C:/Users/LPEE/OneDrive - Hoppenbrouwers Techniek B.V/Documenten/Projects/workfloor_incidents/data")
 df <- read_excel("safetydata.xlsx")
 
 # pie charts descriptive
